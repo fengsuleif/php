@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<title>中国选举观察</title>
+</head>
+<body style="background-color: #eee;">
+
+<div class="hero-unit"> 
+<form action="reg.php?a=login" method="post">      
+<div class="well form-horizontal">
+        <fieldset>
+          <legend>登录</legend>
+          <div class="control-group">
+            <label class="control-label" for="UserName">登录名</label>
+            <div class="controls">
+              <input data-val="true" data-val-required="请填写用户名" id="UserName" name="UserName" tabindex="1" type="text" value="">
+           
+              <p class="help-block">
+                <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+              </p>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="Password">密　码</label>
+            <div class="controls">
+              <input data-val="true" data-val-required="请填写密码" id="Password" name="Password" tabindex="2" type="password">
+             
+              <p class="help-block">
+                <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+              </p>
+            </div>
+          </div>          
+
+          <div class="form-actions">
+            <input class="btn btn-primary btn-large" type="submit" value=" 登 录 " tabindex="4"> 
+          </div>
+        </fieldset>
+      </div>
+</form>  
+</div>
+
+</body></html>
